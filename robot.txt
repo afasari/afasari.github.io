@@ -1,0 +1,7 @@
+user-agent: *
+disallow: /downloads/
+
+user-agent: magicsearchbot
+disallow: /uploads/
+
+sitemap: https://afasari.github.io/sitemap-file.xml
