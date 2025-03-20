@@ -1,6 +1,38 @@
-remote_theme: pages-themes/midnight@v0.2.0
+# remote_theme: pages-themes/midnight@v0.2.0
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
+remote_theme: niklasbuschmann/contrast@v2.11
+
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Personal Website
-author: Batiar Afas Rahmamulia
-description: Software Engineer
+  - jekyll-remote-theme
+title: "Personal Website"
+author: "Batiar Afas Rahmamulia"
+description: "Software Engineer"
+# permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.md"}
+  # - {file: "post"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia+fromgithub@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/afasari"}
+  # - {title: Subscribe, icon: rss, url: "/feed.xml"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+ - jekyll-feed
