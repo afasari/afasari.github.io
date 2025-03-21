@@ -4,7 +4,6 @@ layout: page
 ---
 
 <div class="posts-container">
-  {% raw %}
   {% for post in site.posts %}
     <article class="post-card">
       <div class="post-content">
@@ -37,7 +36,6 @@ layout: page
       </div>
     </article>
   {% endfor %}
-  {% endraw %}
 </div>
 
 <style>
