@@ -5,34 +5,47 @@ remote_theme: niklasbuschmann/contrast@v2.11
 
 plugins:
   - jekyll-remote-theme
-title: "Personal Website"
+  - jekyll-feed
+  - jekyll-seo-tag
+
+title: "Afasari"
 author: "Batiar Afas Rahmamulia"
-description: "Software Engineer"
-# permalink: /:title/
+description: "Software Engineer | Backend Specialist"
+permalink: /:year/:month/:day/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
 
 # Layout
-
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+show_excerpts: true
+show_frame: true
+show_sidebar: true
 
 # Menu
+navigation:
+  - {file: "index.md", title: Home, sidebaricon: home, icon: home}
+  - {file: "posts.md", title: Blog, sidebaricon: pencil-alt, icon: pencil-alt}
+  - {title: Tags, icon: tags, url: "/tags", sidebaricon: tags}
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md"}
-  # - {file: "post"}
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia+fromgithub@gmail.com"}
+external:
+  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/batiar-afas"}
   - {title: Github, icon: github, url: "https://github.com/afasari"}
-  # - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia@gmail.com"}
+  - {title: RSS, icon: rss, url: "/feed.xml"}
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
+# Theme customization
+style:
+  dark: true             # enable dark mode
+  minimal: false         # minimize decorations
+  nav: true             # show navigation icons
 
-plugins:
- - jekyll-feed
+# SEO
+twitter:
+  username: afasari
+  card: summary
+
+social:
+  name: Batiar Afas Rahmamulia
+  links:
+    - https://linkedin.com/in/batiar-afas
+    - https://github.com/afasari
