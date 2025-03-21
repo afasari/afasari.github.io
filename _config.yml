@@ -19,7 +19,7 @@ date_format: "%B %d, %Y"
 # Layout
 show_excerpts: true
 show_frame: true
-show_sidebar: true
+show_sidebar: false
 
 # Menu
 navigation:
@@ -31,7 +31,6 @@ external:
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/batiar-afas"}
   - {title: Github, icon: github, url: "https://github.com/afasari"}
   - {title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia@gmail.com"}
-  - {title: RSS, icon: rss, url: "/feed.xml"}
 
 # Theme customization
 style:
