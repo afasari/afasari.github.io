@@ -24,7 +24,7 @@ show_sidebar: false
 # Menu
 navigation:
   - {file: "index.md", title: Home, sidebaricon: home, icon: home}
-  - {file: "posts.md", title: Blog, sidebaricon: pencil-alt, icon: pencil-alt}
+  - {file: "posts.md", title: Blogs, sidebaricon: pencil-alt, icon: pencil-alt}
   - {file: "projects.md", title: Projects, sidebaricon: code, icon: code}
 
 external:
