@@ -25,7 +25,7 @@ show_sidebar: false
 navigation:
   - {file: "index.md", title: Home, sidebaricon: home, icon: home}
   - {file: "posts.md", title: Blog, sidebaricon: pencil-alt, icon: pencil-alt}
-  - {title: Tags, icon: tags, url: "/tags", sidebaricon: tags}
+  - {file: "projects.md", title: Projects, sidebaricon: code, icon: code}
 
 external:
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/batiar-afas"}
