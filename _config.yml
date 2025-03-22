@@ -7,11 +7,15 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
 
 title: "Afasari"
 author: "Batiar Afas Rahmamulia"
-description: "Software Engineer | Backend Specialist"
-permalink: /:year/:month/:day/:title/
+description: "Software Engineer specializing in Backend Development | Go, TypeScript, and Rust enthusiast"
+url: "https://afasari.github.io"
+baseurl: ""
+permalink: /blog/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -19,32 +23,49 @@ date_format: "%B %d, %Y"
 # Layout
 show_excerpts: true
 show_frame: true
-show_sidebar: false
+show_sidebar: true
+sidebar_title: "Afasari"
 
 # Menu
 navigation:
-  - {file: "index.md", title: Home, sidebaricon: home, icon: home}
-  - {file: "posts.md", title: Blogs, sidebaricon: pencil-alt, icon: pencil-alt}
-  - {file: "projects.md", title: Projects, sidebaricon: code, icon: code}
+  - {file: "index.md", title: Home, sidebaricon: fa-home, icon: fa-home}
+  - {file: "posts.md", title: Blog, sidebaricon: fa-pen, icon: fa-pen}
+  - {file: "projects.md", title: Projects, sidebaricon: fa-code, icon: fa-code}
+  - {file: "about.md", title: Links, sidebaricon: fa-link, icon: fa-link}
 
 external:
-  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/batiar-afas"}
-  - {title: Github, icon: github, url: "https://github.com/afasari"}
-  - {title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia@gmail.com"}
+  - {title: LinkedIn, icon: fa-linkedin, url: "https://linkedin.com/in/batiar-afas"}
+  - {title: Github, icon: fa-github, url: "https://github.com/afasari"}
+  - {title: Mail, icon: fa-envelope, url: "mailto:batiar.rahmamulia@gmail.com"}
+  - {title: RSS, icon: fa-rss, url: "/feed.xml"}
 
 # Theme customization
 style:
-  dark: true             # enable dark mode
-  minimal: false         # minimize decorations
-  nav: true             # show navigation icons
+  dark: true
+  minimal: false
+  nav: true
+  colors:
+    link: "#3b82f6"
+    accent: "#60a5fa"
 
-# SEO
+# Blog settings
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# SEO Improvements
 twitter:
   username: afasari
-  card: summary
+  card: summary_large_image
 
 social:
   name: Batiar Afas Rahmamulia
   links:
     - https://linkedin.com/in/batiar-afas
     - https://github.com/afasari
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/default-social.png
+      author: "Batiar Afas Rahmamulia"

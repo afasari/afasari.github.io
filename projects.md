@@ -63,7 +63,7 @@ layout: page
         const projectsDiv = document.getElementById('github-projects');
         let count = 0;
         data.forEach(repo => {
-          if (!repo.fork && !excludedRepos.some(excluded => repo.name.includes(excluded)) && count < 3) {
+          if (!repo.fork && !excludedRepos.some(excluded => repo.name.includes(excluded)) && count < 4) {
             const repoDiv = document.createElement('div');
             repoDiv.className = 'project-card';
             repoDiv.innerHTML = `
