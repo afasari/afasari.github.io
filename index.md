@@ -1,8 +1,3 @@
----
-layout: default
-title: "Home"
----
-
 <div align="center">
   <h1>Hi there, I'm Batiar 👋</h1>
   <p>Software Engineer | Backend Specialist | Full Stack Developer</p>
