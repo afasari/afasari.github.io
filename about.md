@@ -56,6 +56,7 @@ layout: page
     border-radius: 50%;
     margin-bottom: 1rem;
     border: 3px solid var(--link);
+    object-fit: cover;
   }
 
   .profile-section h1 {
