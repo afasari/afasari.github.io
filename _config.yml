@@ -23,15 +23,15 @@ date_format: "%B %d, %Y"
 # Layout
 show_excerpts: true
 show_frame: true
-show_sidebar: true
+show_sidebar: false
 sidebar_title: "Afasari"
 
 # Menu
 navigation:
-  - {file: "index.md", title: Home, sidebaricon: fa-home, icon: fa-home}
-  - {file: "posts.md", title: Blog, sidebaricon: fa-pen, icon: fa-pen}
-  - {file: "projects.md", title: Projects, sidebaricon: fa-code, icon: fa-code}
-  - {file: "about.md", title: Links, sidebaricon: fa-link, icon: fa-link}
+  - {file: "index.md", title: Home, icon: fa-home}
+  - {file: "posts.md", title: Blogs, icon: fa-pen}
+  - {file: "projects.md", title: Projects, icon: fa-code}
+  - {file: "about.md", title: Links, icon: fa-link}
 
 external:
   - {title: LinkedIn, icon: fa-linkedin, url: "https://linkedin.com/in/batiar-afas"}
