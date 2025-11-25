@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 DEFAULT_TITLE="My New Post"
 DEFAULT_CATEGORY="blog"
 DEFAULT_LAYOUT="post"
-DEFAULT_AUTHOR="Your Name"
+DEFAULT_AUTHOR="Batiar"
 POSTS_DIR="_posts"
 
 # Function to show usage
