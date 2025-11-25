@@ -3,6 +3,7 @@ layout: post
 title: "My New Post"
 date: 2025-11-25
 categories: [blog]
+tags: [tag]
 author: Your Name
 ---
 
