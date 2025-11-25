@@ -15,7 +15,7 @@ layout: page
       <i class="fa fa-github"></i>
       GitHub
     </a>
-    
+  
     <a href="https://linkedin.com/in/batiar-afas" class="link-card linkedin">
       <i class="fa fa-linkedin"></i>
       LinkedIn
@@ -35,6 +35,7 @@ layout: page
       <i class="fa fa-pen"></i>
       Read My Blog
     </a>
+
   </div>
 </div>
 
@@ -107,3 +108,4 @@ layout: page
   .projects:hover { border-color: #60a5fa; }
   .blog:hover { border-color: #10b981; }
 </style>
+
