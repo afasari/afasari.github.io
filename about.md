@@ -108,4 +108,3 @@ layout: page
   .projects:hover { border-color: #60a5fa; }
   .blog:hover { border-color: #10b981; }
 </style>
-

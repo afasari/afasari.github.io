@@ -47,6 +47,7 @@ layout: page
 ## 📚 Other Projects
 
 {% raw %}
+
 <div id="github-projects" class="projects-grid">
   <script>
     const excludedRepos = [
@@ -83,6 +84,7 @@ layout: page
           }
         });
       });
+
   </script>
 </div>
 

@@ -12,7 +12,7 @@ plugins:
 
 title: "Afasari"
 author: "Batiar Afas Rahmamulia"
-description: "Software Engineer specializing in Backend Development | Go, TypeScript, and Rust enthusiast"
+description: "Software Engineer specializing in Backend Development | Go, TypeScript, and Rust enthusiast | JLPT N4, Topik 1, TOEIC Score 850"
 url: "https://afasari.github.io"
 baseurl: ""
 permalink: /blog/:title/
@@ -28,16 +28,26 @@ sidebar_title: "Afasari"
 
 # Menu
 navigation:
-  - {file: "index.md", title: Home, icon: fa-home}
-  - {file: "posts.md", title: Blogs, icon: fa-pen}
-  - {file: "projects.md", title: Projects, icon: fa-code}
-  - {file: "about.md", title: Links, icon: fa-link}
+  - { file: "index.md", title: Home, icon: fa-home }
+  - { file: "posts.md", title: Blogs, icon: fa-pen }
+  - { file: "projects.md", title: Projects, icon: fa-code }
+  - { file: "tags.md", title: Tags, icon: fa-tags }
+  - { file: "categories.md", title: Categories, icon: fa-list }
+  - { file: "about.md", title: Links, icon: fa-link }
 
 external:
-  - {title: LinkedIn, icon: fa-linkedin, url: "https://linkedin.com/in/batiar-afas"}
-  - {title: Github, icon: fa-github, url: "https://github.com/afasari"}
-  - {title: Mail, icon: fa-envelope, url: "mailto:batiar.rahmamulia@gmail.com"}
-  - {title: RSS, icon: fa-rss, url: "/feed.xml"}
+  - {
+      title: LinkedIn,
+      icon: fa-linkedin,
+      url: "https://linkedin.com/in/batiar-afas",
+    }
+  - { title: Github, icon: fa-github, url: "https://github.com/afasari" }
+  - {
+      title: Mail,
+      icon: fa-envelope,
+      url: "mailto:batiar.rahmamulia@gmail.com",
+    }
+  - { title: RSS, icon: fa-rss, url: "/feed.xml" }
 
 # Theme customization
 style:
