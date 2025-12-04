@@ -15,7 +15,7 @@ author: "Batiar Afas Rahmamulia"
 description: "Software Engineer specializing in Backend Development | Go, TypeScript, and Rust enthusiast | JLPT N4, Topik 1, TOEIC Score 850"
 url: "https://afasari.github.io"
 baseurl: ""
-permalink: /blog/:title/
+permalink: /post/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
@@ -60,7 +60,7 @@ style:
 
 # Blog settings
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/post/page:num/"
 
 # SEO Improvements
 twitter:
