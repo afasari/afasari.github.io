@@ -2,7 +2,9 @@
 layout: post
 title: "Building a Modern Todo App with HTMX and Go"
 date: 2024-01-09
-tags: [go, htmx, webdev, tutorial]
+categories: [go, htmx, webdev]
+tags: [project]
+author: Batiar
 ---
 
 In this article, I'll share my experience building a modern Todo application using HTMX and Go. If you're looking for a simpler approach to building interactive web applications without heavy JavaScript frameworks, this project might interest you.

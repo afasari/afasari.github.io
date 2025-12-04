@@ -3,6 +3,7 @@ layout: post
 title: "Building a RESTful Todo API with Rust, Axum, and Diesel"
 date: 2025-03-20
 categories: [rust]
+tags: [project]
 author: Batiar
 ---
 

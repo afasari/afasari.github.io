@@ -17,9 +17,9 @@ This article will a long chain journal to learn data structure and algorithm (DS
 
 ## Programming language
 
-I have 1 years experience in PHP, 5 years experience in Golang and Javascript, and learning some Python and Rust, this journey will use all of them, but mostly in Golang since it's my primary language in current company.
+I have 1 years experience in PHP, 5 years experience in Go Lang and JavaScript, and learning some Python and Rust, this journey will use all of them, but mostly in Go Lang since it's my primary language in current company.
 
-I was learning Golang using [this](https://www.udemy.com/certificate/UC-A6X37910/) and [this](https://www.udemy.com/certificate/UC-XFWVPO56/) Udemy courses, there are a lot of new resources out there, even the free one. For JavaScript, Python and Rust, I'm using Dicoding courses ([JavaScript 1](https://www.dicoding.com/certificates/JLX19NQENP72), [JavaScript 2](https://www.dicoding.com/certificates/KEXL75630XG2), [JavaScript 3](https://www.dicoding.com/certificates/GRX5J96RKX0M), [Python](https://www.dicoding.com/certificates/2VX3KQ4EJXYQ), [Rust](https://www.dicoding.com/certificates/98XWOQJ7LZM3).
+I was learning Go Lang using [this](https://www.udemy.com/certificate/UC-A6X37910/) and [this](https://www.udemy.com/certificate/UC-XFWVPO56/) Udemy courses, there are a lot of new resources out there, even the free one. For JavaScript, Python and Rust, I'm using Dicoding courses ([JavaScript 1](https://www.dicoding.com/certificates/JLX19NQENP72), [JavaScript 2](https://www.dicoding.com/certificates/KEXL75630XG2), [JavaScript 3](https://www.dicoding.com/certificates/GRX5J96RKX0M), [Python](https://www.dicoding.com/certificates/2VX3KQ4EJXYQ), [Rust](https://www.dicoding.com/certificates/98XWOQJ7LZM3).
 
 ## Nest Step
 

@@ -2,7 +2,8 @@
 layout: post
 title: "Building a Pokédex with Vue.js and PokéAPI - A Step-by-Step Guide"
 date: 2025-03-20
-tags: [vue, pokedex]
+categories: [vue]
+tags: [project]
 ---
 
 Hey there! 👋 Let me walk you through how I built a Pokédex using Vue.js and PokéAPI. This project is perfect for learning Vue.js basics while creating something fun!

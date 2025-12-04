@@ -3,7 +3,7 @@ layout: post
 title: "Building a Modern Pokédex with React and TailwindCSS"
 date: 2025-03-20
 categories: [react]
-tags: [react, pokedex]
+tags: [project]
 author: Batiar
 ---
 
