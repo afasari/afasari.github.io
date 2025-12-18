@@ -19,7 +19,7 @@ Big O notation is used to describe the efficiency of an algorithm by measuring h
 | **𝑂(log𝑛)**  | Logarithmic  | Runtime grows slowly; input size is halved each step.   | Binary Search.                                           |
 | **𝑂(𝑛)**     | Linear       | Runtime grows proportionally to input size.             | Simple loop, linear search.                              |
 | **𝑂(𝑛log𝑛)** | Linearithmic | Slightly more than linear; common in efficient sorting. | Merge Sort, Heap Sort.                                   |
-| **𝑂(𝑛2)**    | Quadratic    | Runtime grows with the square of the input.             | Nested loops, Bubble Sort, Insertion Sort.               |
+| **𝑂(𝑛^2)**   | Quadratic    | Runtime grows with the square of the input.             | Nested loops, Bubble Sort, Insertion Sort.               |
 | **𝑂(2𝑛)**    | Exponential  | Runtime doubles with each new input element.            | Recursive Fibonacci, power set generation.               |
 | **𝑂(𝑛!)**    | Factorial    | Growth is massive even for small 𝑛.                     | Permutations of a string, Traveling Salesperson problem. |
 
@@ -51,7 +51,7 @@ Efficiency often depends on whether you are looking at the best, average, or wor
 ## Big O Rules of Thumb
 
 - **Drop Constants**: 𝑂(2𝑛) becomes 𝑂(𝑛).
-- **Drop Non-Dominant Terms**: 𝑂(𝑛^2+𝑛) becomes $𝑂(𝑛^2)$.
+- **Drop Non-Dominant Terms**: 𝑂(𝑛^2+𝑛) becomes 𝑂(𝑛^2).
 - **Worst Case**: Big O specifically measures the **upper bound** or worst-case scenario.
 
 For more detail, you can check <https://www.bigocheatsheet.com/>.
