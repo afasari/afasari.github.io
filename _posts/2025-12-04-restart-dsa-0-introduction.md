@@ -3,7 +3,7 @@ layout: post
 title: "(Re)Start Learning Data Structure and Algorithm - Part 0, Introduction"
 date: 2025-12-04
 categories: [dsa]
-tags: [journey]
+tags: [software engineer]
 author: Batiar
 ---
 
@@ -13,7 +13,8 @@ It's end of 2025, been more than 6 years since my first professional job, why I 
 
 ## Journey
 
-This article will a long chain journal to learn data structure and algorithm (DSA). It's is part of my journey to restart learning programming (cover in later post). In this first article, I'm using this [roadmap](https://github.com/serverx-org/DSA-MASTERY) ![Roadmap](https://github.com/serverx-org/DSA-MASTERY/blob/main/00-dsa-roadmap/dsa-roadmap.png) to learn.
+This article will a long chain journal to learn data structure and algorithm (DSA). It's is part of my journey to restart learning programming (cover in later post). In this first article, I'm using this [roadmap](https://github.com/serverx-org/DSA-MASTERY)
+<img src="https://github.com/serverx-org/DSA-MASTERY/blob/main/00-dsa-roadmap/dsa-roadmap.png" alt="Description" width="400" height="300">.
 
 ## Programming language
 
