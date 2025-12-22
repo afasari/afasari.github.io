@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "(Re)Start Learning Data Structure and Algorithm - Part 2, Mathematics"
-date: 2025-12-32
+date: 2025-12-21
 categories: [dsa]
 tags: [software engineer]
 author: Batiar
