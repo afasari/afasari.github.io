@@ -15,7 +15,7 @@ The first topic is about array and hashing and then continue to stack until cove
 
 Here is the roadmap
 
-```
+```mermaid
 flowchart TD
 
 A[Array & Hashing] --> B[Two Pointers]
