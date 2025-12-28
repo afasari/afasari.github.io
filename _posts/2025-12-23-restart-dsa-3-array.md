@@ -15,7 +15,7 @@ The first topic is about array and hashing and then continue to stack until cove
 
 Here is the roadmap
 
-<pre class="mermaid">
+```
 flowchart TD
 
 A[Array & Hashing] --> B[Two Pointers]
@@ -39,7 +39,7 @@ O --> Q[2D DP]
 P --> Q
 P --> R[Bit Manipulation]
 R --> S
-</pre>
+```
 
 Another great roadmap to follow is from [algomonster](https://blog.algomaster.io/p/how-to-start-leetcode-in-2025)
 
