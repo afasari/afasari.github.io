@@ -31,12 +31,5 @@
 {%- endif -%}
 {%- if site.show_sidebar %}{% include sidebar.html %}{% endif %}
 {% if page.mermaid %}
-<script type="module">
-  import mermaid from 'cdn.jsdelivr.net';
-  mermaid.initialize({ startOnLoad: true });
-  // Ensure it targets the code blocks Jekyll creates
-  window.addEventListener('load', () => {
-    mermaid.run({ querySelector: '.language-mermaid' });
-  });
-</script>
+  {% include mermaid.html %}
 {% endif %}
