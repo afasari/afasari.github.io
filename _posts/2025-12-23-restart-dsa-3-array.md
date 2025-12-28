@@ -5,6 +5,7 @@ date: 2025-12-23
 categories: [dsa]
 tags: [software engineer]
 author: Batiar
+mermaid: true
 ---
 
 ## Roadmap
