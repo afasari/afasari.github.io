@@ -9,6 +9,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-polyglot
+  - jekyll-toc
+  - jekyll-mermaid
 
 title: "Afasari"
 author: "Batiar Afas Rahmamulia"
@@ -23,7 +26,8 @@ date_format: "%B %d, %Y"
 # Layout
 show_excerpts: true
 show_frame: true
-show_sidebar: false
+show_sidebar: true
+show_minimal: false
 sidebar_title: "Afasari"
 
 # Menu
