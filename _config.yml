@@ -34,7 +34,6 @@ sidebar_title: "Afasari"
 # Menu
 
 navigation: # accepts {file, title, url, icon, sidebaricon}
-  - { file: "archive.html", sidebaricon: home }
   - { file: "README.md", sidebaricon: address-card }
 
 external: # accepts {file, title, url, icon, sidebaricon}
