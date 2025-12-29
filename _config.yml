@@ -28,7 +28,7 @@ date_format: "%B %d, %Y"
 show_excerpts: true
 show_frame: true
 show_sidebar: false
-show_minimal: false
+show_minimal: true
 sidebar_title: "Afasari"
 
 # Menu
