@@ -32,18 +32,34 @@ show_minimal: false
 sidebar_title: "Afasari"
 
 # Menu
+navigation:
+  - { file: "index.md", title: Home, sidebaricon: home, icon: fa-home }
+  - { file: "posts.md", title: Blogs, icon: fa-pen }
+  - { file: "projects.md", title: Projects, icon: fa-code }
+  - { file: "tags.md", title: Tags, icon: fa-tags }
+  - { file: "categories.md", title: Categories, icon: fa-list }
+  - { file: "about.md", title: Links, icon: fa-link }
 
-navigation: # accepts {file, title, url, icon, sidebaricon}
-  - { file: "README.md", sidebaricon: address-card }
-
-external: # accepts {file, title, url, icon, sidebaricon}
-  - { title: Mail, icon: envelope, url: "mailto:author@example.com" }
+external:
+  - { title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia@gmail.com" }
   - {
       title: Github,
       icon: github,
       url: "https://github.com/niklasbuschmann/contrast",
     }
   - { title: Subscribe, icon: rss, url: "/feed.xml" }
+  - {
+      title: LinkedIn,
+      icon: fa-linkedin,
+      url: "https://linkedin.com/in/batiar-afas",
+    }
+  - { title: Github, icon: fa-github, url: "https://github.com/afasari" }
+  - {
+      title: Mail,
+      icon: fa-envelope,
+      url: "mailto:batiar.rahmamulia@gmail.com",
+    }
+  - { title: RSS, icon: fa-rss, url: "/feed.xml" }
 
 # Theme customization
 #style:
