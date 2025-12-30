@@ -33,6 +33,7 @@ sidebar_title: "Afasari"
 
 # Menu
 navigation:
+  - { file: "index.md", title: Home, sidebaricon: home, icon: home }
   - { file: "posts.md", title: Blogs }
   - { file: "projects.md", title: Projects }
   - { file: "tags.md", title: Tags }
