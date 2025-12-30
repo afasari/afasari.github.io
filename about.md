@@ -7,7 +7,7 @@ layout: page
   <div class="profile-section">
     <img src="/assets/images/profile.jpg" alt="Batiar Afas" class="profile-image">
     <h1>Batiar Afas</h1>
-    <p>Software Engineer | Backend Specialist</p>
+    <p style="text-align: center;">Software Engineer | Backend Specialist</p>
   </div>
 
   <div class="links-section">
