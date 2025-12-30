@@ -34,13 +34,13 @@ sidebar_title: "Afasari"
 # Menu
 navigation:
   - { file: "index.md", title: Home, sidebaricon: home, icon: home }
-  - { file: "posts.md", title: Blogs, icon: pen }
-  - { file: "projects.md", title: Projects, icon: code }
+  - { file: "posts.md" }
+  - { file: "projects.md", title: Projects }
   - { file: "tags.md", title: Tags, icon: tags }
   - { file: "categories.md", title: Categories, icon: list }
   - { file: "about.md", title: Links, icon: link }
 
-external:
+footer:
   - { title: Mail, icon: envelope, url: "mailto:batiar.rahmamulia@gmail.com" }
   - {
       title: LinkedIn,
