@@ -13,6 +13,18 @@ layout: default
   {% endif %}
 </article>
 
+{% if page.series %}
+<div>
+  <h4>This post is part of a series: {{ page.series }}</h4>
+  <ol>
+    {% assign posts = site.posts | where: "series", page.series | sort: "date" %}
+    {% for post in posts %}
+    <li>{% if post.url == page.url %}{{ post.title }} <i>(this post)</i>{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %}</li>
+    {% endfor %}
+  </ol>
+</div>
+{% endif %}
+
 {% unless site.show_minimal or site.footer  %}
 {% if page.next.url or page.previous.url %}
 <footer class="nowrap {% if site.show_frame %}dark{% else %}smooth{% endif %}">
