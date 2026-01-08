@@ -50,14 +50,10 @@ footer:
   - { title: Github, icon: github, url: "https://github.com/afasari" }
   - { title: Subscribe, icon: rss, url: "/feed.xml" }
 
-# Theme customization
-#style:
-#  dark: true
-#  minimal: false
-#  nav: true
-#  colors:
-#    link: "#3b82f6"
-#    accent: "#60a5fa"
+reading_time:
+  second_plural: "sec" # default: seconds
+  minute_singular: "min" # default: minute
+  minute_plural: "min" # default: minutes
 
 # Blog settings
 paginate: 5
