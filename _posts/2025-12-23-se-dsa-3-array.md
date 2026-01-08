@@ -6,6 +6,7 @@ categories: [dsa]
 tags: [software engineer]
 author: Batiar
 mermaid: true
+series: (Re)Start Learning DSA
 ---
 
 ## Roadmap
