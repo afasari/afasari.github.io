@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "(Re)Start Learning Data Structure and Algorithm - Part 5, Stack"
-date: 2025-12-23
+date: 2026-01-08
 categories: [dsa]
 tags: [software engineer]
 author: Batiar
 mermaid: true
 series: (Re)Start Learning DSA
+toc: true
 ---
 
 ## LeetCode 20: Valid Parentheses

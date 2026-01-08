@@ -6,6 +6,7 @@ categories: [dsa]
 tags: [software engineer]
 author: Batiar
 series: (Re)Start Learning DSA
+toc: true
 ---
 
 ## Introduction

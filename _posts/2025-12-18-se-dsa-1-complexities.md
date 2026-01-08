@@ -6,6 +6,7 @@ categories: [dsa]
 tags: [software engineer]
 author: Batiar
 series: (Re)Start Learning DSA
+toc: true
 ---
 
 Big O notation is used to describe the efficiency of an algorithm by measuring how its execution time or space requirements grow as the input size (𝑛) increases.
